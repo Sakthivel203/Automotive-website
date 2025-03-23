@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Speedjet.in</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Speedjet Automotive</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#buy">Buy a Car</a></li>
+                <li><a href="#sell">Sell a Car</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="intro">
+        <h2>Welcome to the Speedjet Automotive</h2>
+        <p>Browse through our amazing collection of cars or sell your own car today!</p>
+    </section>
+    <section id="buy">
+        <h2>Available Cars for Sale</h2>
+        <div class="car-list">
+            <div class="car-item">
+                <img src="bmw.jpeg" alt="Car 1">
+                <h3>BMW M4</h3><br>
+                <p>Price: 60 Lakhs</p><br>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+            <div class="car-item">
+                <img src="gt.jpeg" alt="Car 2">
+                <h3>Mustang GT</h3><br>
+                <p>Price: 45 Lakhs</p><br>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+            <div class="car-item">
+                <img src="mini.jpeg" alt="Car 3">
+                <h3>Mini Cooper</h3><br>
+                <p>Price: 55 Lakhs</p><br>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sell">
+        <h2>Sell Your Car</h2>
+        <p>If you're looking to sell your car, fill out the form below and we'll help you get the best deal.</p>
+        <form>
+            <label for="car-make">Car Maker</label>
+            <input type="text" id="car-make" name="car-make" required>
+
+            <label for="car-model">Car Model</label>
+            <input type="text" id="car-model" name="car-model" required>
+
+            <label for="car-price">Price</label>
+            <input type="number" id="car-price" name="car-price" required>
+
+            <label for="car-year">Year</label>
+            <input type="number" id="car-year" name="car-year" required>
+
+            <input type="submit" value="Submit Car Details">
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Feel free to get in touch with us for any questions or inquiries.</p>
+        <address>
+            Email: <a href="mailto:connect@speedjet.com">connect@speedjet.com</a><br>
+            Phone: 6381201798
+        </address>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Speedjet Automotive. All rights reserved.</p>
+    </footer>
+</body>
+</html>
